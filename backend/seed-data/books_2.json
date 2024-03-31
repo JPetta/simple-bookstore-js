@@ -1,0 +1,212 @@
+[
+  {
+    "title": "The Catcher in the Rye",
+    "writer": "J.D. Salinger",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8,
+    "tag": ["fiction"]
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "writer": "Harper Lee",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 10,
+    "tag": ["fiction"]
+  },
+  {
+    "title": "1984",
+    "writer": "George Orwell",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9,
+    "tag": ["fiction", "dystopian"]
+  },
+  {
+    "title": "The Great Gatsby",
+    "writer": "F. Scott Fitzgerald",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8,
+    "tag": ["fiction"]
+  },
+  {
+    "title": "Pride and Prejudice",
+    "writer": "Jane Austen",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9,
+    "tag": ["fiction", "romance"]
+  },
+  {
+    "title": "The Hobbit",
+    "writer": "J.R.R. Tolkien",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9,
+    "tag": ["fiction", "fantasy"]
+  },
+  {
+    "title": "Animal Farm",
+    "writer": "George Orwell",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 7,
+    "tag": ["fiction", "satire"]
+  },
+  {
+    "title": "The Lord of the Rings",
+    "writer": "J.R.R. Tolkien",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 10,
+    "tag": ["fiction", "fantasy"]
+  },
+  {
+    "title": "Brave New World",
+    "writer": "Aldous Huxley",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8,
+    "tag": ["fiction", "dystopian"]
+  },
+  {
+    "title": "The Diary of a Young Girl",
+    "writer": "Anne Frank",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8,
+    "tag": ["non-fiction", "biography"]
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "writer": "J.K. Rowling",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9,
+    "tag": ["fiction", "fantasy"]
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "writer": "J.D. Salinger",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8,
+    "tag": ["fiction"]
+  },
+  {
+    "title": "The Hunger Games",
+    "writer": "Suzanne Collins",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9,
+    "tag": ["fiction", "dystopian"]
+  },
+  {
+    "title": "The Da Vinci Code",
+    "writer": "Dan Brown",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 7,
+    "tag": ["fiction", "mystery"]
+  },
+  {
+    "title": "The Fault in Our Stars",
+    "writer": "John Green",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8,
+    "tag": ["fiction", "romance"]
+  },
+  {
+    "title": "The Kite Runner",
+    "writer": "Khaled Hosseini",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9,
+    "tag": ["fiction"]
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "writer": "Stieg Larsson",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8,
+    "tag": ["fiction", "mystery"]
+  },
+  {
+    "title": "Gone Girl",
+    "writer": "Gillian Flynn",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8,
+    "tag": ["fiction", "thriller"]
+  },
+  {
+    "title": "The Alchemist",
+    "writer": "Paulo Coelho",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9,
+    "tag": ["fiction", "inspirational"]
+  },
+  {
+    "title": "The Road",
+    "writer": "Cormac McCarthy",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8,
+    "tag": ["fiction", "dystopian"]
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "writer": "J.K. Rowling",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9,
+    "tag": ["fiction", "fantasy"]
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "writer": "J.D. Salinger",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8,
+    "tag": ["fiction"]
+  },
+  {
+    "title": "The Hunger Games",
+    "writer": "Suzanne Collins",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9,
+    "tag": ["fiction", "dystopian"]
+  },
+  {
+    "title": "The Da Vinci Code",
+    "writer": "Dan Brown",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 7,
+    "tag": ["fiction", "mystery"]
+  },
+  {
+    "title": "The Fault in Our Stars",
+    "writer": "John Green",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8,
+    "tag": ["fiction", "romance"]
+  },
+  {
+    "title": "The Kite Runner",
+    "writer": "Khaled Hosseini",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9,
+    "tag": ["fiction"]
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "writer": "Stieg Larsson",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8,
+    "tag": ["fiction", "mystery"]
+  },
+  {
+    "title": "Gone Girl",
+    "writer": "Gillian Flynn",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8,
+    "tag": ["fiction", "thriller"]
+  },
+  {
+    "title": "The Alchemist",
+    "writer": "Paulo Coelho",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9,
+    "tag": ["fiction", "inspirational"]
+  },
+  {
+    "title": "The Road",
+    "writer": "Cormac McCarthy",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8,
+    "tag": ["fiction", "dystopian"]
+  }
+]

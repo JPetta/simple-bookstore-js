@@ -1,11 +1,11 @@
 // services/transactionService.js
 const { Transaction, User, Book } = require('../entity');
 
-exports.createTransaction = async (userId, bookId) => {
+exports.createTransaction = async (user_id, book_id) => {
   try {
     // Get the user and book details
-    const user = await User.findByPk(userId);
-    const book = await Book.findByPk(bookId);
+    const user = await User.findByPk(user_id);
+    const book = await Book.findByPk(book_id);
 
     if (!user) {
       throw new Error('User not found.');
@@ -21,11 +21,12 @@ exports.createTransaction = async (userId, bookId) => {
     }
 
     // Deduct points from user
-    user.points -= book.point;
+    user.point -= book.point;
+    console.log(user.point)
     await user.save();
 
     // Create the transaction
-    const transaction = await Transaction.create({ userId, bookId });
+    const transaction = await Transaction.create({ user_id, book_id});
 
     return transaction;
   } catch (error) {
@@ -36,7 +37,7 @@ exports.createTransaction = async (userId, bookId) => {
 
 exports.getAllTransactionsForUser = async (userId) => {
   try {
-    const transactions = await Transaction.findAll({ where: { user_id: userId } });
+    const transactions = await Transaction.findAll({ where: { user_id: userId }, include : [User, Book] });
     return transactions;
   } catch (error) {
     throw new Error('Failed to retrieve transactions for the user.');
@@ -44,24 +45,24 @@ exports.getAllTransactionsForUser = async (userId) => {
 };
 
 
-exports.deleteTransaction = async (transactionId) => {
+exports.deleteTransaction = async (transactionId, userId) => {
     try {
       // Get the transaction details
-      const transaction = await Transaction.findByPk(transactionId, { include: [Book] });
+      const transaction = await Transaction.findByPk(transactionId, { include: [Book, User] });
   
       if (!transaction) {
         throw new Error('Transaction not found.');
       }
   
       // Get the user details
-      const user = await User.findByPk(transaction.userId);
+      const user = await User.findByPk(userId);
   
       if (!user) {
         throw new Error('User not found.');
       }
   
       // Return the points to the user
-      user.points += transaction.Book.point;
+      user.point += transaction.Book.point;
       await user.save();
   
       // Delete the transaction

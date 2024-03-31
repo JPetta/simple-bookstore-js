@@ -14,12 +14,16 @@ const bookService = {
   },
 
   // Retrieve all books
-  getAllBooks: async () => {
+  getAllBooks: async (page = 1, pageSize = 5) => {
     try {
-      const allBooks = await Book.findAll();
-      return allBooks;
+      const offset = (page - 1) * pageSize;
+      const books = await Book.findAndCountAll({
+        limit: pageSize,
+        offset: offset,
+      });
+      return books;
     } catch (error) {
-      throw new Error('Error retrieving books');
+      throw new Error('Error retrieving paginated books');
     }
   },
 

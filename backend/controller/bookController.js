@@ -18,8 +18,9 @@ const bookController = {
   // Retrieve all books
   getAllBooks: async (req, res) => {
     try {
-      const allBooks = await bookService.getAllBooks();
-      res.json(allBooks);
+      const { page = 1, pageSize = 5 } = req.query;
+      const books = await bookService.getAllBooks(page, pageSize);
+      res.json(books);
     } catch (error) {
       res.status(500).json({ message: error.message });
     }
