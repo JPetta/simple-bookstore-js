@@ -1,0 +1,38 @@
+[
+    {
+      "title": "To Kill a Mockingbird",
+      "writer": "Harper Lee",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+      "point": 10,
+      "tag": ["fiction"]
+    },
+    {
+      "title": "1984",
+      "writer": "George Orwell",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+      "point": 9,
+      "tag": ["fiction", "dystopian"]
+    },
+    {
+      "title": "The Great Gatsby",
+      "writer": "F. Scott Fitzgerald",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+      "point": 8,
+      "tag": ["fiction"]
+    },
+    {
+      "title": "Pride and Prejudice",
+      "writer": "Jane Austen",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+      "point": 9,
+      "tag": ["fiction", "romance"]
+    },
+    {
+      "title": "The Hobbit",
+      "writer": "J.R.R. Tolkien",
+      "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+      "point": 9,
+      "tag": ["fiction", "fantasy"]
+    }
+  ]
+  
