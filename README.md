@@ -26,7 +26,7 @@ Use the Sequelize CLI to migrate the database schema and seed the database with 
 ### Book Endpoints
 #### Create Book
 - Endpoint: POST /api/books
-  - Headers: Token {{token}}
+  - Headers: { token : "test_token" } 
   - Request Body: JSON object containing book data (title, writer, cover_image, point, tag)
   - ```
     "title": "The Hobbit",
@@ -40,15 +40,15 @@ Use the Sequelize CLI to migrate the database schema and seed the database with 
     ```
 #### Get All Books
 - Endpoint: GET /api/books
-  - Headers: Token {{token}}
+  - - Headers: { token : "test_token" }
 
 #### Get Book by ID
 - Endpoint: GET /api/books/:id
-  - Headers: Token {{token}}
+  - Headers: { token : "test_token" }
 
 #### Update Book
 - Endpoint: PUT /api/books/:id
-  - Headers: Token {{token}}
+  - Headers: { token : "test_token" }
   - Request Body: JSON object containing updated book data
   - ```
     "title": "The Hobbit",
@@ -63,12 +63,12 @@ Use the Sequelize CLI to migrate the database schema and seed the database with 
 
 #### Delete Book
 - Endpoint: DELETE /api/books/:id
-  - Headers: Token {{token}}
+  - Headers: { token : "test_token" }
 
 ### Transaction Endpoints
 #### Create Transaction
 - Endpoint: POST /api/transactions
-  - Headers: Token {{token}}
+  - Headers: { token : "test_token" }
   - Request Body: JSON object containing book_id
   - ```
     "book_id": "1"
@@ -76,8 +76,8 @@ Use the Sequelize CLI to migrate the database schema and seed the database with 
 
 #### Get All Transactions
 - Endpoint: GET /api/transactions
-  - Headers: Token {{token}}
+  - Headers: { token : "test_token" }
 
 #### Delete Transaction
 - Endpoint: DELETE /api/transactions/:id
-  - Headers: Token {{token}}
+  - Headers: { token : "test_token" }
