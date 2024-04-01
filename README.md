@@ -1,55 +1,61 @@
 # Running the Backend Server
 
-## 1. Migrate and Seed the Database
+## 1. Config, Migrate and Seed the Database
 
 Use the Sequelize CLI to migrate the database schema and seed the database with initial data:
 
-```bash
+change the config/config.json to your local postgres username and password
 npx sequelize-cli db:migrate
 npx sequelize-cli db:seed:all
+
 2. Start the Server
 Run the following command to start the backend server:
-
-bash
-Copy code
 npm run start
-Endpoints
-Book Endpoints
-Create Book
 
-Endpoint: POST /api/books
-Request Body: JSON object containing book data (title, writer, cover_image, point, tag)
-Get All Books
+## Endpoints
 
-Endpoint: GET /api/books
-Get Book by ID
-
-Endpoint: GET /api/books/:id
-Update Book
-
-Endpoint: PUT /api/books/:id
-Request Body: JSON object containing updated book data
-Delete Book
-
-Endpoint: DELETE /api/books/:id
-User Endpoints
-Create User
-
+### User Endpoints
+#### Create User
 Endpoint: POST /api/users
 Request Body: JSON object containing user data (username, password, role)
-Login User
 
+####Login User
 Endpoint: POST /api/users/login
 Request Body: JSON object containing username and password
-Transaction Endpoints
-Create Transaction
 
+### Book Endpoints
+#### Create Book
+Endpoint: POST /api/books
+Headers: Token {{token}}
+Request Body: JSON object containing book data (title, writer, cover_image, point, tag)
+
+#### Get All Books
+Endpoint: GET /api/books
+Headers: Token {{token}}
+
+#### Get Book by ID
+Endpoint: GET /api/books/:id
+Headers: Token {{token}}
+
+#### Update Book
+Endpoint: PUT /api/books/:id
+Headers: Token {{token}}
+Request Body: JSON object containing updated book data
+
+#### Delete Book
+Endpoint: DELETE /api/books/:id
+Headers: Token {{token}}
+
+### Transaction Endpoints
+#### Create Transaction
 Endpoint: POST /api/transactions
+Headers: Token {{token}}
 Request Body: JSON object containing user_id and book_id
-Get All Transactions
 
+#### Get All Transactions
 Endpoint: GET /api/transactions
-Delete Transaction
+Headers: Token {{token}}
 
+#### Delete Transaction
 Endpoint: DELETE /api/transactions/:id
-Make sure to replace /api with your actual API route prefix if applicable. Adjust the endpoint URLs and request/response formats according to your backend implementation.
+Headers: Token {{token}}
