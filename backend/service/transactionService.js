@@ -16,7 +16,7 @@ exports.createTransaction = async (user_id, book_id) => {
     }
 
     // Check if user's points are enough to buy the book
-    if (user.points < book.point) {
+    if (user.point -= book.point < 0 ) {
       throw new Error('User does not have enough points to buy the book.');
     }
 
