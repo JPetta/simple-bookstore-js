@@ -28,7 +28,16 @@ Use the Sequelize CLI to migrate the database schema and seed the database with 
 - Endpoint: POST /api/books
   - Headers: Token {{token}}
   - Request Body: JSON object containing book data (title, writer, cover_image, point, tag)
-
+  - ```
+    "title": "The Hobbit",
+    "writer": "J.R.R. Tolkien",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9,
+    "tag": [
+        "fiction",
+        "fantasy"
+    ]
+    ```
 #### Get All Books
 - Endpoint: GET /api/books
   - Headers: Token {{token}}
@@ -41,6 +50,16 @@ Use the Sequelize CLI to migrate the database schema and seed the database with 
 - Endpoint: PUT /api/books/:id
   - Headers: Token {{token}}
   - Request Body: JSON object containing updated book data
+  - ```
+    "title": "The Hobbit",
+    "writer": "J.R.R. Tolkien",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9,
+    "tag": [
+        "fiction",
+        "fantasy"
+    ]
+    ```
 
 #### Delete Book
 - Endpoint: DELETE /api/books/:id
@@ -50,7 +69,10 @@ Use the Sequelize CLI to migrate the database schema and seed the database with 
 #### Create Transaction
 - Endpoint: POST /api/transactions
   - Headers: Token {{token}}
-  - Request Body: JSON object containing user_id and book_id
+  - Request Body: JSON object containing book_id
+  - ```
+    "book_id": "1"
+    ```
 
 #### Get All Transactions
 - Endpoint: GET /api/transactions
