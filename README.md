@@ -1,3 +1,9 @@
+# Varcel frontend link : https://simple-bookstore-js.vercel.app/
+
+# Running the Frontend
+- cd to frontend/simple-bookstore
+- run "npm start"
+
 # Running the Backend Server
 
 ## 1. Config, Migrate and Seed the Database
