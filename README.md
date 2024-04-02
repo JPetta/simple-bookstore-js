@@ -1,4 +1,6 @@
-# Varcel frontend link : https://simple-bookstore-next-jpetta-jovi-petras-projects.vercel.app
+# Varcel frontend link : 
+# Next.js : https://simple-bookstore-next-jpetta-jovi-petras-projects.vercel.app
+# React : https://simple-bookstore-js.vercel.app/
 
 # Running the Frontend
 - cd to frontend/simple-bookstore
