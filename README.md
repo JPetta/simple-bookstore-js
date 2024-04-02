@@ -1,4 +1,4 @@
-# Varcel frontend link : https://simple-bookstore-js.vercel.app/
+# Varcel frontend link : https://simple-bookstore-next-jpetta-jovi-petras-projects.vercel.app
 
 # Running the Frontend
 - cd to frontend/simple-bookstore
